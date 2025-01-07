@@ -1,0 +1,30 @@
+# Normalize text files to LF
+* text=auto
+
+# Specific file types with LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.env text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Backend-specific files
+backend/**/*.js text eol=lf
+backend/**/*.json text eol=lf
+
+# Frontend-specific files
+frontend/**/*.js text eol=lf
+frontend/**/*.jsx text eol=lf
+frontend/**/*.css text eol=lf
+frontend/**/*.html text eol=lf

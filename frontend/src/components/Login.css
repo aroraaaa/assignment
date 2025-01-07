@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #121212; 
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #500070; 
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  }
+  
+  .dashboard {
+    background-color: rgba(178, 168, 168, 0.723); 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .dashboard h2 {
+    font-size: 2rem;
+    color: #3e0056; 
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+  }
+  
+  .stat-title {
+    font-weight: bold;
+  }
+  
+  .stat-value {
+    color: #570e75; 
+  }
+  
+  .role-selection {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #fff; 
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+    accent-color: #9b59b6; 
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #570279; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  button:hover {
+    background-color: #7c4c91; 
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
